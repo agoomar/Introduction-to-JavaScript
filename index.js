@@ -18,8 +18,10 @@ Do the following:
    HINT: no function required
 */
 
-
-
+let votingAge = 20
+if (votingAge >= 18){
+  console.log(true);
+}
 /*
 Task 1b - Values
 
@@ -58,12 +60,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
 
-
-
+console.log(5, 3);
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Age in Dog years
@@ -147,7 +148,7 @@ function game(user, computer){
 /*
 Using the miles function below do the following:
   1. Receive a number of kilometers
-  2. Convert the number of kiolmeters received to miles
+  2. Convert the number of kilometers received to miles
   3. Return the number of miles
 */
 
@@ -201,21 +202,9 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(num){
-    if(num < 100 && num >= 90){
-      return 'you got an A';
-    }else if(num <90 && num >= 80){
-      return 'you got a B';
-    }else if(num < 80 && num >= 70){
-      return 'you got a C';
-    }else if(num < 70 && num >= 60){
-      return 'you got a D';
-    }else if(num < 60){
-      return 'you got an F';
-    }
+function grade(/*Your Code here */){
+  /*Your Code here */
   }
-  
-  console.log('grade function', grade(85));
   
   
 
